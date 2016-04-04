@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento|Hind:500);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    font-family: 'Hind', sans-serif;
+    max-width: 80%;
+    padding: 10% 0% 5% 10%;
+    text-align: left;
+    float: left;
+}
+
+body{
+    background-color: white;
+    color: #444;
+    font-size: 16px;
+}
+
+div#wrapper {
+    margin: 5% auto;
+    width: 90%;
+    background-color: rgba(131, 237, 234, 0.33);
+    border-radius: 8px;
+    border: solid rgba(131, 237, 234, 0.5);
+    overflow: auto;
+}
+
+div#board {
+    padding: 0% 15% 13% 20%;
+    float: left;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.8em;
+    margin-bottom: 0;
+}
+
+h2 {
+     padding: 0;
+ }
+
+h2:last-child {
+    font-family: 'Sacramento', cursive;
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.3em;
+    padding: 0.2em 0;
+}
+
+table {
+    border: solid rgba(131, 237, 234, 0.5);
+    border-spacing: 0;
+    float: right;
+}
+
+td {
+    border-collapse: collapse;
+    width: 50px;
+    height: 50px;
+}
+
+.on {
+    background-image: url("lightOn.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.off {
+    background-image: url("lightOff.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 748px) {
+    article {
+        max-width: 40%;
+        padding-bottom: 10%;
+        text-align: right;
+    }
+
+    div#board {
+        padding: 10% 5% 10% 5%;
+        float: left;
+    }
+}
